@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "moment": "^2.30.1",
+    "moment-timezone": "^0.5.45",
+    "mssql": "^11.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.26.0"
+  }
+}
