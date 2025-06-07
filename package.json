@@ -1,9 +1,30 @@
 {
+  "name": "whatsapp-gemini-bot",
+  "version": "1.0.0",
+  "description": "ChatBot WhatsApp com IA Gemini para telemedicina",
+  "main": "chatbot.js",
+  "scripts": {
+    "start": "node chatbot.js",
+    "dev": "nodemon chatbot.js"
+  },
   "dependencies": {
+    "@google/generative-ai": "^0.15.0",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.45",
     "mssql": "^11.0.1",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.26.0"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "chatbot",
+    "ai",
+    "gemini",
+    "telemedicina"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT"
 }
